@@ -1,0 +1,163 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  .container1 {
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background: no-repeat url('pattern-background-desktop.svg');  
+    background-color:hsl(225, 100%, 94%);
+  }
+
+  .container2 {
+    width: 450px;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+  }
+
+  .grid1 {
+    position: absolute;
+    top: 0;
+  }
+  .grid1 img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .grid2 {
+    margin-top: 220px;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 1.75rem;
+    color: var(--dark-blue);
+    text-transform: capitalize;
+  }
+
+  .grid3 {
+    margin-top: -45px;
+    text-align: center;
+  }
+
+  p {
+    color: var(--desaturated-blue);
+  }
+
+  .grid4 {
+    background-color: var(--very-pale-blue);
+    width: 351px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+
+  .grid4 {
+    margin-top: -30px;
+    background-color: var(--very-pale-blue);
+    width: 351px;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .grid4 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .grid4 .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 6px;
+  }
+
+  .grid4 h4 {
+    font-size: 1.05rem;
+    color: var(--dark-blue);
+    font-weight: 900;
+  }
+  
+  .grid4 h4, .grid4 p {
+    margin-left: -80px;
+  }
+  
+  .grid4 span {
+    text-decoration: underline;
+    margin-left: auto;
+    color: var(--bright-blue);
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  .button {
+    background-color: #382be0;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 351px; /* Adjust the maximum width as needed */
+    height: 50px;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: -25px;
+    box-shadow: 0px 2px 4px rgba(222, 218, 249, 0.8) inset;
+  }
+  .cancel {
+    color: var(--desaturated-blue);
+    font-weight: bold;
+    
+  }
+.grid6 {
+    margin-top: -45px;
+}
+
+.grid5 {
+    box-shadow: 0px 2px 4px rgba(222, 218, 249, 0.8);
+}
